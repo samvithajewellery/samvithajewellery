@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Samvitha | Diamond Rings Collection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-wrapper">
+
+<!-- HEADER -->
+<header class="header">
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  <div class="logo">
+    <img src="Samvitha Logo PNG.png" alt="Samvitha Jewellers Logo" class="logo-img">
+    SAMVITHA JEWELLERS
+  </div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="#">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="#">Profile</a>
+  </nav>
+</header>
+
+<!-- SEARCH BAR -->
+<section class="search-section">
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search by product name or ID (e.g., Hoop Earrings, ER001)">
+    <button id="searchBtn">🔍 Search</button>
+  </div>
+</section>
+
+<!-- SIDE CATEGORY PANEL -->
+<aside id="sideMenu" class="side-menu">
+  <a href="#">New Arrivals</a>
+  <a href="#">Sarees</a>
+  <a href="#">Men Wear</a>
+  <a href="#">Festive Wear</a>
+  <a href="#">Offers</a>
+</aside>
+
+<!-- MAIN CONTENT -->
+<main class="main-content">
+
+  <!-- DIAMOND RINGS COLLECTION -->
+  <section class="products">
+    <h2>Diamond Rings Collection</h2>
+
+    <div class="product-grid">
+      <div class="product-card" data-code="DR001" data-mrp="4999" data-price="3999">
+        <div class="image-grid">
+          <img src="https://via.placeholder.com/150x150?text=Solitaire+1" alt="Solitaire Diamond Ring">
+          <img src="https://via.placeholder.com/150x150?text=Solitaire+2" alt="Solitaire Diamond Ring">
+          <img src="https://via.placeholder.com/150x150?text=Solitaire+3" alt="Solitaire Diamond Ring">
+          <img src="https://via.placeholder.com/150x150?text=Solitaire+4" alt="Solitaire Diamond Ring">
+        </div>
+        <h3>Solitaire Diamond Ring</h3>
+        <p>Product ID: DR001</p>
+        <p class="price"><del>₹4,999</del> ₹3,999</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-code="DR002" data-mrp="5999" data-price="4999">
+        <div class="image-grid">
+          <img src="https://via.placeholder.com/150x150?text=Halo+1" alt="Halo Diamond Ring">
+          <img src="https://via.placeholder.com/150x150?text=Halo+2" alt="Halo Diamond Ring">
+          <img src="https://via.placeholder.com/150x150?text=Halo+3" alt="Halo Diamond Ring">
+          <img src="https://via.placeholder.com/150x150?text=Halo+4" alt="Halo Diamond Ring">
+        </div>
+        <h3>Halo Diamond Ring</h3>
+        <p>Product ID: DR002</p>
+        <p class="price"><del>₹5,999</del> ₹4,999</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-code="DR003" data-mrp="6999" data-price="5999">
+        <div class="image-grid">
+          <img src="https://via.placeholder.com/150x150?text=Vintage+1" alt="Vintage Diamond Ring">
+          <img src="https://via.placeholder.com/150x150?text=Vintage+2" alt="Vintage Diamond Ring">
+          <img src="https://via.placeholder.com/150x150?text=Vintage+3" alt="Vintage Diamond Ring">
+          <img src="https://via.placeholder.com/150x150?text=Vintage+4" alt="Vintage Diamond Ring">
+        </div>
+        <h3>Vintage Diamond Ring</h3>
+        <p>Product ID: DR003</p>
+        <p class="price"><del>₹6,999</del> ₹5,999</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-code="DR004" data-mrp="7999" data-price="6999">
+        <div class="image-grid">
+          <img src="https://via.placeholder.com/150x150?text=Three-Stone+1" alt="Three-Stone Diamond Ring">
+          <img src="https://via.placeholder.com/150x150?text=Three-Stone+2" alt="Three-Stone Diamond Ring">
+          <img src="https://via.placeholder.com/150x150?text=Three-Stone+3" alt="Three-Stone Diamond Ring">
+          <img src="https://via.placeholder.com/150x150?text=Three-Stone+4" alt="Three-Stone Diamond Ring">
+        </div>
+        <h3>Three-Stone Diamond Ring</h3>
+        <p>Product ID: DR004</p>
+        <p class="price"><del>₹7,999</del> ₹6,999</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & SUPPORT -->
+  <section class="info-section">
+    <div>
+      <h4>Contact</h4>
+      <p>📞 +91 9XXXXXXXXX</p>
+      <p>📧 samvitha@gmail.com</p>
+      <div class="social-buttons">
+        <button class="social-btn whatsapp-btn" onclick="window.open('https://wa.me/919XXXXXXXXX', '_blank')">📱 WhatsApp</button>
+        <button class="social-btn instagram-btn" onclick="window.open('https://www.instagram.com/samvitha_shine_with_tradition?igsh=MTN0aXp3N21pc3NqcQ==', '_blank')">📷 Instagram</button>
+      </div>
+    </div>
+
+    <div>
+      <h4>Support</h4>
+      <p>Help Center</p>
+      <p>Returns</p>
+      <p>Shipping</p>
+    </div>
+
+    <div>
+      <h4>Available On</h4>
+      <p>Amazon</p>
+      <p>Flipkart</p>
+    </div>
+  </section>
+
+</main>
+
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  © 2025 Samvitha. Designed by Tharun
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

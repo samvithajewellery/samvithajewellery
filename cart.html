@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Samvitha | Shopping Cart</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-wrapper">
+
+<!-- HEADER -->
+<header class="header">
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  <div class="logo">
+    <img src="Samvitha Logo PNG.png" alt="Samvitha Jewellers Logo" class="logo-img">
+    SAMVITHA JEWELLERS
+  </div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="#">About</a>
+    <a href="#">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="#">Profile</a>
+  </nav>
+</header>
+
+<!-- SEARCH BAR -->
+<section class="search-section">
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search by product name or ID">
+    <button id="searchBtn">🔍 Search</button>
+  </div>
+</section>
+
+<!-- SIDE CATEGORY PANEL -->
+<aside id="sideMenu" class="side-menu">
+  <a href="#">New Arrivals</a>
+  <a href="#">Sarees</a>
+  <a href="#">Men Wear</a>
+  <a href="#">Festive Wear</a>
+  <a href="#">Offers</a>
+</aside>
+
+<!-- MAIN CONTENT -->
+<main class="main-content">
+
+  <!-- CART ITEMS -->
+  <section class="cart-section">
+    <h2>Your Shopping Cart</h2>
+    <div id="cartItems" class="cart-items">
+      <!-- Cart items will be dynamically loaded here -->
+    </div>
+    <div id="cartTotal" class="cart-total">
+      <!-- Total will be calculated here -->
+    </div>
+    <div class="cart-actions">
+      <button id="clearCartBtn" class="clear-cart-btn">Clear Cart</button>
+      <button id="checkoutBtn" class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </section>
+
+  <!-- CONTACT & SUPPORT -->
+  <section class="info-section">
+    <div>
+      <h4>Contact</h4>
+      <p>📞 +91 9392995743</p>
+      <p>📧 samvithajewellery@gmail.com</p>
+      <div class="social-buttons">
+        <button class="social-btn whatsapp-btn" onclick="window.open('https://wa.me/919392995743', '_blank')">📱 WhatsApp</button>
+        <button class="social-btn instagram-btn" onclick="window.open('https://www.instagram.com/samvitha_shine_with_tradition?igsh=MTN0aXp3N21pc3NqcQ==', '_blank')">📷 Instagram</button>
+      </div>
+    </div>
+
+    <div>
+      <h4>Support</h4>
+      <p>Help Center</p>
+      <p>Returns</p>
+      <p>Shipping</p>
+    </div>
+
+    <div>
+      <h4>Available On</h4>
+      <p>Meesho</p>
+    </div>
+  </section>
+
+</main>
+
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  © 2025 Samvitha Jewellers. Designed by Tharun
+</footer>
+
+<script src="script.js"></script>
+<script src="cart.js"></script>
+</body>
+</html>

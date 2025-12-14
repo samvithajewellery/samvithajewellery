@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Samvitha | Shine With Tradition</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-wrapper">
+
+<!-- HEADER -->
+<header class="header">
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  <div class="logo">
+    <img src="Samvitha Logo PNG.png" alt="Samvitha Jewellers Logo" class="logo-img">
+    SAMVITHA JEWELLERS
+  </div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="#">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="#">Profile</a>
+  </nav>
+</header>
+
+<!-- SEARCH BAR -->
+<section class="search-section">
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search by product name or ID">
+    <button id="searchBtn">🔍 Search</button>
+  </div>
+</section>
+
+<!-- SIDE CATEGORY PANEL -->
+<aside id="sideMenu" class="side-menu">
+  <a href="#">New Arrivals</a>
+  <a href="#">Sarees</a>
+  <a href="#">Men Wear</a>
+  <a href="#">Festive Wear</a>
+  <a href="#">Offers</a>
+</aside>
+
+<!-- MAIN CONTENT -->
+<main class="main-content">
+
+  <!-- NEW ARRIVALS -->
+  <section class="products">
+    <h2>New Collections Launching Soon</h2>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="Premium-Barbie-Pink-Banarasi-Silk-Saree.jpg" alt="Saree">
+        <h3>Silk Saree</h3>
+        <!--  <p class="price"><del>₹2,999</del> ₹1,999</p>  -->
+          <p class="price">We're Launching Soon</p>
+      </div>
+
+      <div class="product-card">
+        <img src="mens formal shirts.jpg" alt="Shirts">
+        <h3>Men’s Shirt</h3>
+        <!--  <p class="price"><del>₹1,499</del> ₹999</p> -->
+          <p>We're Launching Soon</p>
+      </div>
+
+            <div class="product-card">
+        <img src="mens stylish pants.jpeg" alt="Mens Pants">
+        <h3>Pants</h3>
+       <!-- <p class="price"><del>₹1,599</del> ₹1,099</p> -->
+        <p>We're Launching Soon</p>
+      </div>
+
+      <div class="product-card">
+        <img src="womens kurtas stylish.jpg" alt="Kurta">
+        <h3>Festive Kurta</h3>
+       <!-- <p class="price"><del>₹1,199</del> ₹799</p> -->
+        <p>We're Launching Soon</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR PRODUCTS -->
+  <section class="featured-products">
+    <h2>Our Products</h2>
+
+    <div class="product-grid">
+      <div class="product-card" data-code="FP001" data-price="2999" data-images='["https://i.pinimg.com/originals/28/ab/11/28ab11b28c7565c6c8e61e6b1d2e3d49.jpg", "https://via.placeholder.com/300x350", "https://via.placeholder.com/300x350", "https://via.placeholder.com/300x350"]'>
+        <img src="Ear Rings Home.jpg" alt="Ear Rings">
+        <h3>Ear Rings</h3>
+
+      </div>
+
+      <div class="product-card" data-code="FP002" data-price="1999" data-mrp="2999" data-description="Stunning diamond ring with sparkling stones, a symbol of eternal love." data-images='["https://via.placeholder.com/300x350", "https://via.placeholder.com/300x350", "https://via.placeholder.com/300x350"]'>
+        <img src="Chains Home.jpg" alt="Neck Chains">
+        <h3>Neck Chains</h3>
+      </div>
+
+      <div class="product-card" data-code="FP003" data-price="3999" data-mrp="4999" data-description="Beautiful silver bracelet with modern craftsmanship, ideal for everyday wear." data-images='["https://via.placeholder.com/300x350", "https://via.placeholder.com/300x350", "https://via.placeholder.com/300x350", "https://via.placeholder.com/300x350"]'>
+        <img src="Bracelets Home.jpg" alt="Bracelet">
+        <h3>Bracelet</h3>
+      </div>
+
+            <div class="product-card" data-code="FP002" data-price="1999" data-mrp="2999" data-description="Stunning diamond ring with sparkling stones, a symbol of eternal love." data-images='["https://via.placeholder.com/300x350", "https://via.placeholder.com/300x350", "https://via.placeholder.com/300x350"]'>
+        <img src="Bangles Home.jpg" alt="Bangles">
+        <h3>Bangles</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & SUPPORT -->
+  <section class="info-section">
+    <div>
+      <h4>Contact</h4>
+      <p>📞 +91 9392995743</p>
+      <p>📧 samvithajewellery@gmail.com</p>
+       <div class="social-buttons">
+        <button class="social-btn whatsapp-btn" onclick="window.open('https://wa.me/919392995743', '_blank')">📱 WhatsApp</button>
+        <button class="social-btn instagram-btn" onclick="window.open('https://www.instagram.com/samvitha_shine_with_tradition?igsh=MTN0aXp3N21pc3NqcQ==',)">📷 Instagram</button>
+      </div>
+    </div>
+
+    <div>
+      <h4>Support</h4>
+      <p>Help Center</p>
+      <p>Returns</p>
+      <p>Shipping</p>
+    </div>
+
+    <div>
+      <h4>Available On</h4>
+      <p>Meesho</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- MODAL -->
+<div id="productModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <p id="modalCode"></p>
+    <p id="modalDescription"></p>
+    <p id="modalPrice"></p>
+    <div id="modalImages" class="modal-images"></div>
+    <button id="addToCartBtn">Add to Cart</button>
+    <button id="shareBtn">Share</button>
+  </div>
+</div>
+
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  © 2025 Samvitha Jewellers. Designed by Tharun
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

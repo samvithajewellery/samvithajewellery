@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Samvitha | Bracelet Collection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-wrapper">
+
+<!-- HEADER -->
+<header class="header">
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  <div class="logo">
+    <img src="Samvitha Logo PNG.png" alt="Samvitha Jewellers Logo" class="logo-img">
+    SAMVITHA JEWELLERS
+  </div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="#">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="#">Profile</a>
+  </nav>
+</header>
+
+<!-- SEARCH BAR -->
+<section class="search-section">
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search by product name or ID (e.g., Hoop Earrings, ER001)">
+    <button id="searchBtn">🔍 Search</button>
+  </div>
+</section>
+
+<!-- SIDE CATEGORY PANEL -->
+<aside id="sideMenu" class="side-menu">
+  <a href="#">New Arrivals</a>
+  <a href="#">Sarees</a>
+  <a href="#">Men Wear</a>
+  <a href="#">Festive Wear</a>
+  <a href="#">Offers</a>
+</aside>
+
+<!-- MAIN CONTENT -->
+<main class="main-content">
+
+  <!-- BRACELET COLLECTION -->
+  <section class="products">
+    <h2>Bracelet Collection</h2>
+
+    <div class="product-grid">
+      <div class="product-card" data-code="BR001" data-mrp="2499" data-price="1999">
+        <div class="image-grid">
+          <img src="bracelets/bracelet1.jpeg" alt="Gold Bracelet">
+         <!-- <img src="https://via.placeholder.com/150x150?text=Gold+Bracelet+2" alt="Gold Bracelet">
+          <img src="https://via.placeholder.com/150x150?text=Gold+Bracelet+3" alt="Gold Bracelet">
+          <img src="https://via.placeholder.com/150x150?text=Gold+Bracelet+4" alt="Gold Bracelet">  -->
+        </div>
+        <h3>Silver Plated Adjustable Bracelet</h3>
+        <p>Product ID: BR001</p>
+        <p class="price"><del>₹485</del> ₹249</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-code="BR002" data-mrp="1499" data-price="1199">
+        <div class="image-grid">
+          <img src="bracelets/bracelet2.jpeg" alt="Silver Bracelet">
+
+        </div>
+        <h3>Gold Tone Crystal Floral Bracelet</h3>
+        <p>Product ID: BR002</p>
+        <p class="price"><del>₹499</del> ₹349</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-code="BR003" data-mrp="3499" data-price="2999">
+        <div class="image-grid">
+          <img src="bracelets/bracelet3.jpeg" alt="Diamond Bracelet">
+        </div>
+        <h3>Gold Tone Triangula Stone Bracelet</h3>
+        <p>Product ID: BR003</p>
+        <p class="price"><del>₹349</del> ₹249</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-code="BR004" data-mrp="999" data-price="799">
+        <div class="image-grid">
+          <img src="bracelets/bracelet13.jpg" alt="Leather Bracelet">
+        </div>
+        <h3>Gold Tone Triangular Cut Stone Bracelet</h3>
+        <p>Product ID: BR004</p>
+        <p class="price"><del>₹399</del> ₹249</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-code="BR005" data-mrp="2499" data-price="1999">
+        <div class="image-grid">
+          <img src="bracelets/bracelet5.jpeg" alt="Gold Bracelet">
+        </div>
+        <h3>Butterfly Charm Bracelet</h3>
+        <p>Product ID: BR005</p>
+        <p class="price"><del>₹470</del> ₹349</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-code="BR006" data-mrp="1499" data-price="1199">
+        <div class="image-grid">
+          <img src="bracelets/bracelet12.jpg" alt="Silver Bracelet">
+
+        </div>
+        <h3>Silver Bracelet</h3>
+        <p>Product ID: BR006</p>
+        <p class="price"><del>₹349</del> ₹249</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-code="BR006" data-mrp="1499" data-price="1199">
+        <div class="image-grid">
+          <img src="bracelets/bracelet14.jpeg" alt="Silver Bracelet">
+
+        </div>
+        <h3>Silver Bracelet</h3>
+        <p>Product ID: BR006</p>
+        <p class="price"><del>₹349</del> ₹249</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+  <!--    <div class="product-card" data-code="BR006" data-mrp="1499" data-price="1199">
+        <div class="image-grid">
+          <img src="bracelets/bracelet10.jpeg" alt="Silver Bracelet">
+
+        </div>
+        <h3>Silver Bracelet</h3>
+        <p>Product ID: BR006</p>
+        <p class="price"><del>₹1,499</del> ₹1,199</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card" data-code="BR006" data-mrp="1499" data-price="1199">
+        <div class="image-grid">
+          <img src="bracelets/bracelet11.jpeg" alt="Silver Bracelet">
+
+        </div>
+        <h3>Silver Bracelet</h3>
+        <p>Product ID: BR006</p>
+        <p class="price"><del>₹1,499</del> ₹1,199</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card" data-code="BR006" data-mrp="1499" data-price="1199">
+        <div class="image-grid">
+          <img src="bracelets/bracelet12.jpg" alt="Silver Bracelet">
+
+        </div>
+        <h3>Silver Bracelet</h3>
+        <p>Product ID: BR006</p>
+        <p class="price"><del>₹1,499</del> ₹1,199</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product-card" data-code="BR006" data-mrp="1499" data-price="1199">
+        <div class="image-grid">
+          <img src="bracelets/bracelet13.jpg" alt="Silver Bracelet">
+
+        </div>
+        <h3>Silver Bracelet</h3>
+        <p>Product ID: BR006</p>
+        <p class="price"><del>₹1,499</del> ₹1,199</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>  -->
+    </div>
+  </section>
+
+  <!-- CONTACT & SUPPORT -->
+  <section class="info-section">
+    <div>
+      <h4>Contact</h4>
+      <p>📞 +91 9XXXXXXXXX</p>
+      <p>📧 samvitha@gmail.com</p>
+      <div class="social-buttons">
+        <button class="social-btn whatsapp-btn" onclick="window.open('https://wa.me/919XXXXXXXXX', '_blank')">📱 WhatsApp</button>
+        <button class="social-btn instagram-btn" onclick="window.open('https://www.instagram.com/samvitha_shine_with_tradition?igsh=MTN0aXp3N21pc3NqcQ==', '_blank')">📷 Instagram</button>
+      </div>
+    </div>
+
+    <div>
+      <h4>Support</h4>
+      <p>Help Center</p>
+      <p>Returns</p>
+      <p>Shipping</p>
+    </div>
+
+    <div>
+      <h4>Available On</h4>
+      <p>Amazon</p>
+      <p>Flipkart</p>
+    </div>
+  </section>
+
+</main>
+
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  © 2025 Samvitha Jewellers. Designed by Tharun
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

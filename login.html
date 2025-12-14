@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - Samvitha Jewellers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-wrapper">
+
+<!-- HEADER -->
+<header class="header">
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  <div class="logo">
+    <img src="Samvitha Logo PNG.png" alt="Samvitha Jewellers Logo" class="logo-img">
+    SAMVITHA JEWELLERS
+  </div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="#">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="signup.html">Sign Up</a>
+  </nav>
+</header>
+
+<!-- LOGIN FORM -->
+<main class="main-content">
+  <section class="signup-section">
+    <div class="signup-logo">
+      <img src="Samvitha Logo PNG.png" alt="Samvitha Jewellers Logo" class="signup-logo-img">
+    </div>
+    <h2>Login</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="loginPhone">Phone Number:</label>
+        <input type="tel" id="loginPhone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="loginPassword">Password:</label>
+        <input type="password" id="loginPassword" name="password" required>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <div class="signup-options">
+      <p>Or continue with:</p>
+      <button id="continuePhone">Continue with Phone</button>
+      <button id="continueGmail">Continue with Gmail</button>
+    </div>
+    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  © 2025 Samvitha Jewellers. Designed by Tharun
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

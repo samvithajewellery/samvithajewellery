@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Samvitha | Ear Rings Collection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page-wrapper">
+
+<!-- HEADER -->
+<header class="header">
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  <div class="logo">
+    <img src="Samvitha Logo PNG.png" alt="Samvitha Jewellers Logo" class="logo-img">
+    SAMVITHA JEWELLERS
+  </div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="#">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="#">Profile</a>
+  </nav>
+</header>
+
+<!-- SEARCH BAR -->
+<section class="search-section">
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search by product name or ID (e.g., Hoop Earrings, ER001)">
+    <button id="searchBtn">🔍 Search</button>
+  </div>
+</section>
+
+<!-- SIDE CATEGORY PANEL -->
+<aside id="sideMenu" class="side-menu">
+  <a href="#">New Arrivals</a>
+  <a href="#">Sarees</a>
+  <a href="#">Men Wear</a>
+  <a href="#">Festive Wear</a>
+  <a href="#">Offers</a>
+</aside>
+
+<!-- MAIN CONTENT -->
+<main class="main-content">
+
+  <!-- EAR RINGS COLLECTION -->
+  <section class="products">
+    <h2>Ear Rings Collection</h2>
+
+    <div class="product-grid">
+      <div class="product-card" data-code="ER001" data-mrp="2499" data-price="1999">
+        <div class="image-grid">
+          <img src="earrings/earrings2.jpg" alt="Hoop Earrings">
+          <img src="earrings/Ear Rings flower model.jpg" alt="Hoop Earrings">
+          <img src="https://via.placeholder.com/150x150?text=Hoop+3" alt="Hoop Earrings">
+          <img src="https://via.placeholder.com/150x150?text=Hoop+4" alt="Hoop Earrings">
+        </div>
+        <h3>Flower Type Ear Rings</h3>
+        <p>Product ID: ER001</p>
+        <p class="price"><del>₹499</del> ₹349</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      <!-- <div class="share-buttons">
+          <button class="share-btn whatsapp-btn">📱 WhatsApp</button>
+          <button class="share-btn instagram-btn">📷 Instagram</button>
+        </div>  -->
+      </div>
+
+      <div class="product-card" data-code="ER002" data-mrp="1999" data-price="1499">
+        <div class="image-grid">
+          <img src="earrings/earrings7.jpeg" alt="Stud Earrings">
+          <img src="earrings/earrings8.jpeg" alt="Stud Earrings">
+          <img src="earrings/earrings9.jpeg" alt="Stud Earrings">
+       <img src="earrings/earrings10.jpeg" alt="Stud Earrings"> 
+        </div>
+        <h3>Jumki Floral Drop Earrings</h3>
+        <p>Product ID: ER002</p>
+        <p class="price"><del>₹720</del> ₹549</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-code="ER003" data-mrp="3499" data-price="2999">
+        <div class="image-grid">
+          <img src="earrings/earrings13.jpeg" alt="Chandelier Earrings">
+          <img src="earrings/earrings14.jpeg" alt="Chandelier Earrings">
+          <img src="earrings/earrings15.jpeg" alt="Chandelier Earrings">
+          <img src="earrings/earrings16.jpeg" alt="Chandelier Earrings">
+        </div>
+        <h3>Gemstone accents Pearl drops</h3>
+        <p>Product ID: ER003</p>
+        <p class="price"><del>₹730</del> ₹499</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-code="ER004" data-mrp="2999" data-price="2499">
+        <div class="image-grid">
+          <img src="earrings/earrings4.jpg" alt="Drop Earrings">
+
+        </div>
+        <h3>Drop Earrings</h3>
+        <p>Product ID: ER004</p>
+        <p class="price"><del>₹110</del> ₹210</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+      <div class="product-grid">
+      <div class="product-card" data-code="ER001" data-mrp="2499" data-price="1999">
+        <div class="image-grid">
+          <img src="earrings/earrings5.jpg" alt="Hoop Earrings">
+        </div>
+        <h3>Flower Type Ear Rings</h3>
+        <p>Product ID: ER001</p>
+        <p class="price"><del>₹349</del> ₹249</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-code="ER002" data-mrp="1999" data-price="1499">
+        <div class="image-grid">
+          <img src="earrings/earrings10.jpg" alt="Stud Earrings">
+        </div>
+        <h3>Jumki Floral Drop Earrings</h3>
+        <p>Product ID: ER002</p>
+        <p class="price"><del>₹749</del> ₹549</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+  <!--   <div class="product-card" data-code="ER003" data-mrp="3499" data-price="2999">
+        <div class="image-grid">
+          <img src="earrings/earrings13.jpeg" alt="Chandelier Earrings">
+          <img src="earrings/earrings14.jpeg" alt="Chandelier Earrings">
+          <img src="earrings/earrings15.jpeg" alt="Chandelier Earrings">
+          <img src="earrings/earrings16.jpeg" alt="Chandelier Earrings">
+        </div>
+        <h3>Gemstone accents Pearl drops</h3>
+        <p>Product ID: ER003</p>
+        <p class="price"><del>₹730</del> ₹499</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+
+      <div class="product-card" data-code="ER004" data-mrp="2999" data-price="2499">
+        <div class="image-grid">
+          <img src="earrings/earrings4.jpg" alt="Drop Earrings">
+
+        </div>
+        <h3>Drop Earrings</h3>
+        <p>Product ID: ER004</p>
+        <p class="price"><del>₹2,999</del> ₹2,499</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>  -->
+    </div>
+  </section>
+  <br>
+  <!-- CONTACT & SUPPORT -->
+  <section class="info-section">
+    <div>
+      <h4>Contact</h4>
+<p>📞 +91 9392995743</p>
+      <p>📧 samvithajewellery@gmail.com</p>
+      <div class="social-buttons">
+        <button class="social-btn whatsapp-btn" onclick="window.open('https://wa.me/919XXXXXXXXX', '_blank')">📱 WhatsApp</button>
+        <button class="social-btn instagram-btn" onclick="window.open('https://www.instagram.com/samvitha_shine_with_tradition?igsh=MTN0aXp3N21pc3NqcQ==', '_blank')">📷 Instagram</button>
+      </div>
+    </div>
+
+    <div>
+      <h4>Support</h4>
+      <p>Help Center</p>
+      <p>Returns</p>
+      <p>Shipping</p>
+    </div>
+
+    <div>
+      <h4>Available On</h4>
+      <p>Meesho</p>
+    </div>
+  </section>
+
+</main>
+
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  © 2025 Samvitha Jewellers. Designed by Tharun
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
